@@ -1,6 +1,14 @@
 ```
 Harmful-Wasp-Species-Classifier-Illinois
 
+This repository contains large files split into smaller parts due to GitHub size limits
+Model's file has been split into three smaller files
+To reassemble:
+Using 7-Zip
+Download all model files and move to same folder
+Extract from wasp_model.zip.001 using 7-Zip with extract here
+7-Zip will automatically combine and extract the full file.
+
 Able to distinguish between harmful and harmless species of wasps found in Illinois
 Takes .jpg .jpeg .png images and returns one of the species of wasps encompassed by the model
 Trained on iNaturalist research-grade images
